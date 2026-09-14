@@ -1,6 +1,10 @@
 interface McpToolDefinition {
   name: string;
   description: string;
+  /** Human-facing one-liner (fleet #1967). Optional; consumers fall back to
+   *  description. Kept in step with shared/src/types.ts — scripts/lib/
+   *  check-inlined-types.mjs reports drift at publish time. */
+  summary?: string;
   inputSchema: {
     type: 'object';
     properties: Record<string, unknown>;
@@ -611,8 +615,6 @@ function markInternalOrigin(
 function internalHostMetricsClass(error: string): string | undefined {
   return error.includes(INTERNAL_ORIGIN_MARKER) ? INTERNAL_SERVICE_UNREACHABLE_CLASS : undefined;
 }
-
-
 /**
  * Mondo — condition-string resolver onto the Mondo Disease Ontology.
  *
