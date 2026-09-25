@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/mondo",
   "title": "Mondo",
   "description": "Mondo — condition-string resolver onto the Mondo Disease Ontology.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/mondo",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-mondo",
