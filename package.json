@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mondo",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Mondo — condition-string resolver onto the Mondo Disease Ontology.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-1282dd420f419206d7ea0beec568d7399d0f6c220dc42900a39328445d5254d3",
-    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
+    "sourceHash": "v1-ade8e3fa7db1325d5c575d428d6a5bac0d65625945bdb1e4fe5b887cb530a00a",
+    "sourceCommit": "774de7f685a75e02d0b828d24a7b94794102152c"
   }
 }
